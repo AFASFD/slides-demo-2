@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.window{
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.slides{
+    display: flex;
+    transform: translateX(0px);
+    transition: all 1s;
+}
+.slides > img{
+    width: 100%;
+}
+.buttons{
+    text-align: center;
+}
+.controls{
+    text-align: center;
+}
